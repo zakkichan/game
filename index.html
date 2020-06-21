@@ -9,8 +9,8 @@
       flex-wrap: wrap;
     }
     .box {
-      width: 100px;
-      height: 100px;
+      width: 500px;
+      height: 500px;
       background-color: skyblue;
       cursor: pointer;
       transition: 0.8s;
@@ -45,10 +45,10 @@
 
       div.addEventListener('click', () => {
         if (i === winner) {
-          div.textContent = 'Win!';
+          div.textContent = 'あたり！';
           div.classList.add('win');
         }else {
-          div.textContent = 'Lose!';
+          div.textContent = 'はずれ…';
           div.classList.add('lose');
 
         }
